@@ -1,3 +1,6 @@
+int foo = 225;        //variables for pupil movement
+boolean check = true;
+
 void setup()
 {
   size(600, 600);
@@ -45,12 +48,31 @@ void draw()
   line(300, 280, 310, 340);
   line(285, 340, 310, 340);
   
+  //glasses
+  strokeWeight(4);
+  noFill();
+  rect(202, 235, 75, 50);
+  rect(322, 235, 75, 50);
+  line(280, 260, 322, 260);
+  
   //eyes
-  strokeWeight(1);
+  strokeWeight(2);
   fill(255);
   ellipse(240, 260, 60, 35);
   ellipse(360, 260, 60, 35);
+  eyes();         //pupil movement function
+  
+}
+
+void eyes() {
   fill(0);
-  ellipse(240, 260, 27, 27);
-  ellipse(360, 260, 27, 27);
+  ellipse(foo, 260, 27, 27);
+  ellipse(foo+120, 260, 27, 27);
+  
+  if ((foo <= 255)&&(check == true)){         //if-else check to see what stage of movement the pupils are in
+  foo = foo + 1;}
+  else if ((foo >= 225)&&(check == false)){
+    foo = foo - 1;}
+  else{check = !check;}
+ 
 }
