@@ -3,8 +3,8 @@
 ## Description
 Self portrait (although it is considerably better looking than I am), made with simple commands and shapes in Processing 3.5.4
 
-## Screen capture of output:
-![Screencapture of Self Portrait](self_portrait.gif)
+## Screen Capture of Output:
+![Screen Capture of Self Portrait](https://github.com/mike-leo-k/intro-to-im/blob/master/june%201/self-portrait.gif)
 
 ## Challenges/Discoveries
 * Finding out the RGB values of my target colors took longer than I thought.
