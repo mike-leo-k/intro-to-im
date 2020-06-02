@@ -1,7 +1,7 @@
 # Production Assignment: Digital Art with Loops
 
 ## Description
-Two simple works of art
+Two simple works of art, inspired by vintage computer generated graphics. Makes use of for() 
 
 ## Screenshot of Output:
 ![Art with Trigonometric functions in for() loops](https://github.com/mike-leo-k/intro-to-im/blob/master/june%202/digital_art_1.png)
