@@ -1,7 +1,7 @@
 # Production Assignment: Digital Art with Loops
 
 ## Description
-Two simple works of art, inspired by vintage computer generated graphics. Makes use of for() 
+Two simple works of art, inspired by old computer generated graphics. Makes use of for() loops to achieve the "vintage" look of classic computer art. I used [this](https://www.youtube.com/watch?v=LaarVR1AOvs) tutorial for inspiration.
 
 ## Screenshot of Output:
 
