@@ -13,7 +13,7 @@ Two simple works of art, inspired by vintage computer generated graphics. Makes 
 <details>
   <summary>Warning, fast flashing images!</summary>
   
-![Art with random() functions in for() loops](https://github.com/mike-leo-k/intro-to-im/blob/master/june%202/)
+![Art with random() functions in for() loops](https://github.com/mike-leo-k/intro-to-im/blob/master/june%202/digital-art-2020-06-02-13-29-45.gif)
 </details>
 
 
