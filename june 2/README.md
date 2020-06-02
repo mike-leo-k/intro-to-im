@@ -18,4 +18,6 @@ Two simple works of art, inspired by vintage computer generated graphics. Makes 
 
 
 ## Challenges/Discoveries
-* Using the rotate() function within the for() loop proved more challenging than I thought, but I was able to manipulate it satisfactorily after reading up on its Reference page. 
+* Using the rotate() function within the for() loop proved more challenging than I thought, but I was able to manipulate it satisfactorily after reading up on its Reference page.
+* The random() function generates decimal numbers as well, which aren't accepted in RGB values, so I truncated it by adding (int) before each random() function.
+* Playing around with the sin() function and observing the effects of multiplicative and additive factors was actually quite interesting.
