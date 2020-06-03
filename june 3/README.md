@@ -8,7 +8,7 @@ The code that runs the game uses object-oriented programming to define the paddl
 ## Screen Captures of Game:
 
 ### Pong Practice in action
-![GIF of the game being played](h)
+![GIF of the game being played](https://github.com/mike-leo-k/intro-to-im/blob/master/june%203/pong_practice.gif)
 
 ## Challenges/Discoveries
 * Figuring out how to navigate between three separate screens (I envisioned the game to have a start screen and a game over screen in addition to actual gameplay) was challenging. I settled on checking a variable for one three values in an if-else chain in void main(), but unfortunately didn't have enough time to implement it.
