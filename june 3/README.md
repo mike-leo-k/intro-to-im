@@ -10,11 +10,8 @@ The code that runs the game uses object-oriented programming to define the paddl
 ### Pong Practice in action
 ![GIF of the game being played](h)
 
-### Still of the Game Over screen.
-![Screenshot of end screen](h)
-
-
-
 ## Challenges/Discoveries
-* Figuring out how to navigate between three separate screens (I envisioned the game to have a start screen and a game over screen in addition to actual gameplay) was challenging, until I settled on checking a variable for one three values in an if-else chain in void main().
+* Figuring out how to navigate between three separate screens (I envisioned the game to have a start screen and a game over screen in addition to actual gameplay) was challenging. I settled on checking a variable for one three values in an if-else chain in void main(), but unfortunately didn't have enough time to implement it.
 * Because I wanted to use the up and down arrow keys, the keyPressed() function wouldn't work. I learned you could use keyCode instead.
+* Used text that constantly updates to reflect the score.
+* Got a little lost in all the coordinate arithmetic I had to do to accurately check the position of the ball with ralation to the paddle.
