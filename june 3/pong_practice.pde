@@ -124,10 +124,10 @@ void draw() {
 //Now we put the commands given by pressing and releasing the up and down arrow keys
 void keyPressed(){
   if(keyCode == UP){
-    paddle.ySpeed = -3;
+    paddle.ySpeed = -5;
   }
   if(keyCode == DOWN){
-    paddle.ySpeed = 3;
+    paddle.ySpeed = 5;
   }
 }
 
