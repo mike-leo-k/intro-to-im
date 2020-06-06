@@ -56,11 +56,18 @@ Finally, using random(255) in the stroke(R, G, B) function, I set each point on 
   <summary>(2/2) Data Visualization</summary>
   
 ## Data Visualization
-Inspired by [Pong](https://en.wikipedia.org/wiki/Pong), one of the earliest video games created, Pong Practice is a simple one person video game intended to allow the player to "practice" Pong. Instead of two paddles, there is only paddle to the right of the screen, and the objective is to prevent a bouncing ball from touching the right edge. Pong Practice emulates practicing tennis/table tennis/lacrosse shots against a wall.
 
-The code that runs the game uses object-oriented programming to define the paddle and the ball as objects, as well as defining the various functions that can be applied to them.
+### Basic Analysis of the 1988 Seoul Olympics Participants & Winners
+Having already collected data on this event for another project, I decided to use Processing to complete a simple data visualization of the compiled information. The data on the number of medals won was collected from [here](https://en.wikipedia.org/wiki/1988_Summer_Olympics_medal_table).
 
-## Screen Captures of Game:
+The 1988 Olympics were notable for several reasons: it was the first Olympics event with participation from all major blocs in international politics, following two consecutive events that were boycotted by various countries; it was the last Olympics event attended by the Soviet Union; finally, no nation has ever come close to the Soviet Union's utter domination of the medal table, with 55 gold medals and 132 medals in total.
+
+I decided to analyze the performance of countries identified as communist states, due to the fact that most of these states would no longer exist by the following Olympics. A communist country is defined as a state that is administered and governed by a single communist party guided by Marxism–Leninism. I identified communist states using [this](https://en.wikipedia.org/wiki/Communist_state#List_of_communist_states) list.
+
+The compiled list of countries, with their total medals and their status as a communist state (1 if they were, 0 if they were not) looked like this:
+<p align="center">
+  <img width="400" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/1988%20olympics.jpg">
+</p>
 
 ### Pong Practice in action
 ![GIF of the game being played](https://github.com/mike-leo-k/intro-to-im/blob/master/june%203/pong_practice.gif)
