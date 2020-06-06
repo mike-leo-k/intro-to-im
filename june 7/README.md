@@ -4,7 +4,8 @@
   <summary>(1/2) Digital Art with Transformations</summary>
 
 ## Digital Art with Transformations
-<img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_1.png" width="48">
+<img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_1.png" width="300">
+This is an example of a text.
 
 ## Final Render
 ![GIF of final render](https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/final_render.gif)
