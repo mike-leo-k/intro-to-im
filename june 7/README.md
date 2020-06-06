@@ -24,9 +24,21 @@ Then, using a for() loop, with pushMatrix() at the beginning followed by an incr
 
 Now, when rotating the coordinate system (with the rotate() transformation), translation is also required for the drawings to be displayed on screen. Implementing the function in the last step, I added a second for loop that would draw the same graphs vertically as well:
 <p align="center">
-  <br>
   <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_4.png">
 </p>
+
+Using strokeWeight(), I increased the size of the points (and thus the graphs):
+<p align="center">
+  <br>
+  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_5.png">
+</p>
+
+Finally, using random(255) in the stroke(R, G, B) function, I set each point on each graph to have a random color:
+<p align="center">
+  <br>
+  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_6.png">
+</p>
+
 
 ### Final Render
 <p align="center">
