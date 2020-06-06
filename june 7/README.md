@@ -4,9 +4,7 @@
   <summary>(1/2) Digital Art with Transformations</summary>
 
 ## Digital Art with Transformations
-Inspired by [Pong](https://en.wikipedia.org/wiki/Pong), one of the earliest video games created, Pong Practice is a simple one person video game intended to allow the player to "practice" Pong. Instead of two paddles, there is only paddle to the right of the screen, and the objective is to prevent a bouncing ball from touching the right edge. Pong Practice emulates practicing tennis/table tennis/lacrosse shots against a wall.
-
-The code that runs the game uses object-oriented programming to define the paddle and the ball as objects, as well as defining the various functions that can be applied to them.
+<img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_1.png" width="48">
 
 ## Final Render
 ![GIF of final render](https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/final_render.gif)
