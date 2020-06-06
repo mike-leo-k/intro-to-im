@@ -4,6 +4,7 @@
   <summary>(1/2) Digital Art with Transformations</summary>
 
 ## Digital Art with Transformations
+Having already worked with trigonometric functions and [the rotate() function](/june 3), I decided to
 <img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_1.png" width="700">
 
 This is an example of a text.
