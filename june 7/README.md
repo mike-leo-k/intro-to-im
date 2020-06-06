@@ -17,6 +17,7 @@ Then, scaling the graph by a fact of 10:
 </p>
 Then, using a for() loop, with pushMatrix() at the beginning followed by an incremental downward translation (using translat(0, i), i += 15) and a subsequent popMatric(), I repeated the sine graph throughout the screen:
 
+
 <p align="center">
   <img width="490" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/trans_3.png">
 </p>
