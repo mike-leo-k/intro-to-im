@@ -1,4 +1,15 @@
-float y;
+/*
+  Mike Leo, mlk525
+  June 7, 2020.
+  This program generates
+	a colorful pattern using
+	sine graphs and transformations 
+	as well as randomly generated
+  color.
+  All you need to do is run it. Enjoy!
+*/
+
+float y;    //declaring global variables for use in the trigonometric function
 float foo = 0;
 
 void setup()
