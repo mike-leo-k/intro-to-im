@@ -46,7 +46,9 @@ Finally, using random(255) in the stroke(R, G, B) function, I set each point on 
 </p>
 
 ## Challenges/Discoveries
-* F
+* Figuring out how to properly scale up the sine graph. Realizing that the x coroodinate needed to be proportionally scaled as well seems obvious in retrospect.
+* I first tried using the fill() function to change the color of the points, but googling told me that stroke() controlled the colors of points.
+* Calculating how much translation was required post-rotation. Thinking of the coordinate system as a movable graph sheet really helped.
 
 </details>
 
