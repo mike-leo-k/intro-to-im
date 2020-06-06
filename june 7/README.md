@@ -64,13 +64,22 @@ The 1988 Olympics were notable for several reasons: it was the first Olympics ev
 
 I decided to analyze the performance of countries identified as communist states, due to the fact that most of these states would no longer exist by the following Olympics. A communist country is defined as a state that is administered and governed by a single communist party guided by Marxism–Leninism. I identified communist states using [this](https://en.wikipedia.org/wiki/Communist_state#List_of_communist_states) list.
 
-The compiled list of countries, with their total medals and their status as a communist state (1 if they were, 0 if they were not) looked like this:
+The compiled list of countries, with their total medals and their status as a communist state (1 if they were, 0 if they were not), looked like this:
 <p align="center">
   <img width="400" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/1988%20olympics.jpg">
 </p>
 
-### Pong Practice in action
-![GIF of the game being played](https://github.com/mike-leo-k/intro-to-im/blob/master/june%203/pong_practice.gif)
+AFter creating the CSV file, I used the [loadTable()](https://processing.org/reference/loadTable_.html) function and a for() loop to read the values of each row (with the row.getInt() function). Adding up the total participants and medals, as well as all the communist states participating and the medals won by them, I was able to display the data visually:
+<p align="center">
+  <br>
+  <img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/data_vis_1.png">
+</p>
+
+With the bar on top representing the number of participating communist states out of all participants, and the second bar depicting the number of medals won by communist states out of all medals won. I printed the values calculated numerically as well:
+<p align="center">
+  <br>
+  <img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/data_vis_2.png">
+</p>
 
 ## Challenges/Discoveries
 * Figuring out how to navigate between three separate screens (I envisioned the game to have a start screen and a game over screen in addition to actual gameplay) was challenging. I settled on checking a variable for one three values in an if-else chain in void main(), but unfortunately didn't have enough time to implement it.
