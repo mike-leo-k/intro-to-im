@@ -81,10 +81,13 @@ With the bar on top representing the number of participating communist states ou
   <img src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/data_vis_2.png">
 </p>
 
-## Challenges/Discoveries
-* Figuring out how to navigate between three separate screens (I envisioned the game to have a start screen and a game over screen in addition to actual gameplay) was challenging. I settled on checking a variable for one three values in an if-else chain in void main(), but unfortunately didn't have enough time to implement it.
-* Because I wanted to use the up and down arrow keys, the keyPressed() function wouldn't work. I learned you could use keyCode instead.
-* Used text that constantly updates to reflect the score.
-* Got a little lost in all the coordinate arithmetic I had to do to accurately check the position of the ball with relation to the paddle.
+### Challenges/Discoveries
+* Wasn't sure how to read the values from each row and use them for calculations. The [loadTable()](https://processing.org/reference/loadTable_.html) page was immensely helpful to figure this out.
+
+### Visualization of Police Killings of Black Americans by State
+In progress, will be updated shortly.
+
+### Challenges/Discoveries
+* 
 
 </details>
