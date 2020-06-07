@@ -8,7 +8,10 @@
   participating in the 
   1988 Seoul Olympics to 
   the number of medals they
-  won.
+  won. The sources for this data
+  can be found in the README file
+  here: https://github.com/mike-leo-k/intro-to-im/edit/master/june%207/
+  
   As long as you have the file
   in the same folder as this program,
   all you need to do is run it. Enjoy!
