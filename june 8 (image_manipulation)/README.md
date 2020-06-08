@@ -13,12 +13,6 @@ Then, inputting values of each states' latitude and longitude from [this website
   <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%208%20(image_manipulation)/pictures/state_coord.jpg">
 </p>
 
-Then, using a for() loop, with pushMatrix() at the beginning followed by an incremental downward translation (using translat(0, i), i += 15) and a subsequent popMatric(), I repeated the sine graph throughout the screen:
-<p align="center">
-  <br>
-  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%207/pictures/trans_3.png">
-</p>
-
 Now came the tricky part. Unable to find a way to accurately automate the counting of the number of occurrences by state, I opted to input the number of occurrences manually, by using Excel to count the instances in each case:
 <p align="center">
   <br>
@@ -33,4 +27,5 @@ Using for() loops, I was able to read the values from this information table int
 </p>
 
 ### Challenges/Discoveries
-* 
+* The reference page for the [Table](https://processing.org/reference/Table.html) class proved immensely helpful. Without knowledge of the .getRowCount() and .getFloat() methods, it would have been much harder to read the data from the table.
+* [This tutorial](https://www.youtube.com/watch?v=7ZOpV0_cu9g) by Nicholas Felton served as the starting point for adding the image reading the data into a 2D array in my program.
