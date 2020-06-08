@@ -86,9 +86,6 @@ With the bar on top representing the number of participating communist states ou
 
 
 ## Visualization of Police Killings of Black Americans by State
-In progress, will be updated shortly.
-
-### Challenges/Discoveries
-* 
+Can be found [here](https://github.com/mike-leo-k/intro-to-im/blob/master/june%208%20(image_manipulation)/).
 
 </details>
