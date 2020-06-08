@@ -41,8 +41,9 @@ void draw() {
   noStroke();  //removing the outline from any shapes drawn
 
   for(int i = 0; i < table.getRowCount(); i++){    //this for() loop draws circles over every state, with the size and opactiy of the circle based on the number of killings
-    float alpha = map(csvdata[i][0], 0, 200, 40, 90);    //basing the alpha value of the circle fill on the number of killings
+    float alpha = map(csvdata[i][0], 0, 200, 40, 90);  //basing the alpha value of the circle fill on the number of killings
     fill(255, 0, 0, alpha);
-    ellipse(csvdata[i][1], csvdata[i][2] + 75, csvdata[i][0], csvdata[i][0]);    //the 75 added to the latitude values was calculated through trial and error to correctly place the circles over states
+    float radius = map(csvdata[i][0], 0, 200, 40, 200);
+    ellipse(csvdata[i][1], csvdata[i][2] + 78, radius, radius);    //the 80 added to the latitude values was calculated through trial and error to correctly place the circles over states
   }
 }
