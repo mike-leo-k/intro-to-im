@@ -5,7 +5,6 @@ Code for 'Jet Fighter Portal'
 
 int foo = 0;
 int fired = 0, ports = 0;
-int textMove, textMoveTrue;
 
 PImage jet_pic;
 PImage menu_bg;
@@ -135,11 +134,11 @@ class Jet {      //defining the Ball class
     for (int i = bullets.length - 1; i >= 0; i--) {
       bullets[i].move();
       bullets[i].display();
-      
-      if(bullets[i].timeAlive > 200){
-       bullets[i].xTemp = -10;
-       bullets[i].yTemp = -10;
-       bullets[i].bullet_speed = 0;
+
+      if (bullets[i].timeAlive > 300) {
+        bullets[i].xTemp = -10;
+        bullets[i].yTemp = -10;
+        bullets[i].bullet_speed = 0;
       }
     }
   }
@@ -213,7 +212,7 @@ class Bullet {      //defining the Bullet class
         bullet_angle = portals[0].num;
       }
     } else if ((yTemp > portals[0].yTemp - portal_height/2) && (yTemp < portals[0].yTemp + portal_height/2)) {
-      if ((xTemp < - diameter) && (portals[0].xTemp == 0))  {
+      if ((xTemp < - diameter) && (portals[0].xTemp == 0)) {
         xTemp = portals[1].xTemp;
         yTemp = portals[1].yTemp;
         bullet_angle = portals[1].num;
@@ -254,7 +253,7 @@ class Bullet {      //defining the Bullet class
 
 
 /**************************************************************************************************************/
-/*                                         BULLET CLASS                                                       */
+/*                                         PORTAL CLASS                                                       */
 /**************************************************************************************************************/
 
 class Portal {      //defining the Bullet class
@@ -398,8 +397,6 @@ void draw() {
   } else if (gameScreen == 1) { 
     playScreen();
   } else if (gameScreen == 2) {
-    textMove = 200;
-    textMoveTrue = 0;
     endScreen();
   }
   //println("angle: " + jet.jet_angle);
@@ -430,14 +427,14 @@ void playScreen() {
   image(game_bg, width/2, height/2);
   jet.move();     //Calculate the location of the ball
   jet.display();  //Display the location
-  jet. move();
+  jet.move();
   jet.display();
   textSize(40);
   textAlign(CENTER);
   fill(255);
   text("BULLETS FIRED: " + fired, width/2, 80);
   textSize(20);
-  text(random[fired], width/2 + 100, 130);
+  text(random[(41-fired)], width/2 + 100, 130);
   if (fired == 43) {
     end.play();
     gameScreen = 2;
