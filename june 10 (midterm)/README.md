@@ -21,6 +21,9 @@ The mechanics of teleportation is emulated in 2D in Jet Fighter Portal, where th
 
 The game consists of three screens: the initial screen, which is exited by pressing any keys; the game screen itself where the jet can be operated; and the end screen which displays a final message. The opening and end screen play two different pieces of 8-bit theme music, while the game screen plays sounds when bullets and portals are being fired.
 
+
+## [Jet Fighter Portal Practice in action](https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/jet%20fighter%20portal.mp4)
+
 ### Screen Captures of Game:
 
 <p align="center">
@@ -37,12 +40,6 @@ The game consists of three screens: the initial screen, which is exited by press
   <br>
   <img width="700" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/endScreen.jpg">
 </p>
-
-
-# [Jet Fighter Portal Practice in action](https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/jet%20fighter%20portal.mp4)
-
-
-
 
 ## Challenges/Discoveries
 * 
