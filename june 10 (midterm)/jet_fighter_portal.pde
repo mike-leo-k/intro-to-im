@@ -477,9 +477,9 @@ void endScreen() {  //displaying background image and text at the end of the gam
   textSize(35);
   text("Thank you for playing", width/2, height/2);
   textSize(20);
-  text("We will treasure your aimless flying", width/2, height-275);
-  text("and shooting and teleporting", width/2, height-250);
-  text("forever.", width/2, height-225);
+  text("We will treasure your aimless flying", width/2, height-255);
+  text("and shooting and teleporting", width/2, height-230);
+  text("forever.", width/2, height-205);
 }
 
 //didn't get this next part to work, so you can ignore it
