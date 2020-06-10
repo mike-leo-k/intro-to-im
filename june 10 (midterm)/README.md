@@ -38,7 +38,8 @@ The game consists of three screens: the initial screen, which is exited by press
   <img width="700" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/endScreen.jpg">
 </p>
 
-### [Jet Fighter Portal Practice in action](https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/jet%20fighter%20portal.mp4)
+
+## [Jet Fighter Portal Practice in action](https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/jet%20fighter%20portal.mp4)
 
 
 ## Challenges/Discoveries
