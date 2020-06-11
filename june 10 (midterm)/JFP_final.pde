@@ -98,6 +98,12 @@ class Jet {      //defining the Jet class
         xPos = portals[1].xTemp;
         yPos = portals[1].yTemp;
         jet_angle = portals[1].num;
+      } else if (((yPos < jet_image.width/2) && (portals[0].yTemp == height)) || ((yPos > height) && (portals[0].yTemp == 0))) {
+        if (yPos - jet_image.width/2 < 0) {
+          yPos = jet_image.width/2;
+        } else if (yPos + jet_image.width/2 > height) {
+          yPos = height-jet_image.width/2;
+        }
       }
     } else if ((xPos > portals[1].xTemp - portal_height/2) && (xPos < portals[1].xTemp + portal_height/2)) {
       if ((yPos < - jet_image.width/2) && (portals[1].yTemp == 0)) {
@@ -108,6 +114,13 @@ class Jet {      //defining the Jet class
         xPos = portals[0].xTemp;
         yPos = portals[0].yTemp;
         jet_angle = portals[0].num;
+      } else if (((yPos < jet_image.width/2) && (portals[1].yTemp == height)) || ((yPos > height) && (portals[1].yTemp == 0))) {
+
+        if (yPos - jet_image.width/2 < 0) {
+          yPos = jet_image.width/2;
+        } else if (yPos + jet_image.width/2 > height) {
+          yPos = height-jet_image.width/2;
+        }
       }
     } else if ((yPos > portals[0].yTemp - portal_height/2) && (yPos < portals[0].yTemp + portal_height/2)) {
       if ((xPos < - jet_image.height/2) && (portals[0].xTemp == 0)) {
@@ -118,6 +131,12 @@ class Jet {      //defining the Jet class
         xPos = portals[1].xTemp;
         yPos = portals[1].yTemp;
         jet_angle = portals[1].num;
+      } else if (((xPos < jet_image.height/2) && (portals[0].xTemp == width)) || ((xPos > width) && (portals[0].xTemp == 0))) {
+        if (xPos - jet_image.height/2 < 0) {
+          xPos = jet_image.height/2;
+        } else if (xPos + jet_image.height/2 > width) {
+          xPos = width-jet_image.height/2;
+        }
       }
     } else if ((yPos > portals[1].yTemp - portal_height/2) && (yPos < portals[1].yTemp + portal_height/2)) {
       if ((xPos < - jet_image.height/2) && (portals[1].xTemp == 0)) {
@@ -128,6 +147,12 @@ class Jet {      //defining the Jet class
         xPos = portals[0].xTemp;
         yPos = portals[0].yTemp;
         jet_angle = portals[0].num;
+      } else if (((xPos < jet_image.height/2) && (portals[1].xTemp == width)) || ((xPos > width) && (portals[1].xTemp == 0))) {
+        if (xPos - jet_image.height/2 < 0) {
+          xPos = jet_image.height/2;
+        } else if (xPos + jet_image.height/2 > width) {
+          xPos = width-jet_image.height/2;
+        }
       }
     } 
 
