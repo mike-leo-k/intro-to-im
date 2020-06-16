@@ -31,4 +31,4 @@ Top View
 </p>
 
 ## Challenges & Discoveries
-* 
+* There is a slight delay befor the push button's state is read, which I suspect is because of the delay() function. In order for the button state to be read even during these "delays" I think using the millis() function would be more appropriate. I look forward to testing it out in the future.
