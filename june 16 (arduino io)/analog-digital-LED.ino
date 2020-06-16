@@ -46,12 +46,7 @@ void loop() {
     buttonState = digitalRead(button);
 
     // if the LED is off turn it on and vice-versa (in order to create an alternating effect):
-    if (ledState == LOW) {
-      ledState = HIGH;
-    }
-    else {
-      ledState = LOW;
-    }
+    ledState = !ledState;
 
     // set the LED with the ledState variable. here all LEDs are either HIGH or LOW together
     digitalWrite(led1, ledState);
@@ -68,12 +63,7 @@ void loop() {
     buttonState = digitalRead(button);
 
     // if the LED is off turn it on and vice-versa:
-    if (ledState == LOW) {
-      ledState = HIGH;
-    }
-    else {
-      ledState = LOW;
-    }
+    ledState = !ledState;
 
     // set the LED with the ledState variable, alternating the state of each LED:
     digitalWrite(led1, ledState);
