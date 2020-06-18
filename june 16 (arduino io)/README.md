@@ -13,7 +13,7 @@ Using the basic analogRead(), digitalRead() and digitalWrite() functions, we ach
 
 <p align="center">
   <br>
-  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2016%20(arduino%20io)/pictures/test_schem.png">
+  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2016%20(arduino%20io)/pictures/test_schem1.png">
 </p>
 
 ### Project Photographs:
