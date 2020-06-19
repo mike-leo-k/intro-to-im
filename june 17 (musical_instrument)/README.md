@@ -48,4 +48,4 @@ Figuring out how to use it was fairly straightforward, but making a strong conne
 
 * Exiting the for() loop in the riff mode if the button was pressed required the use of the [break](https://www.arduino.cc/reference/en/language/structure/control-structure/break/) function, which I hadn't used in an Arduino program previously. Didn't prove to be too difficult though.
 
-* I tried to switch out the delay() 
+* I tried to switch out the delay() function in the section of code for pausing between notes, using the millis() function from the BlinkWithoutDelay code example. I was unable to functionally replace the delay() function, but I did leave the remnants of my attempt as comments within the final code for future reference.
