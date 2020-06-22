@@ -11,7 +11,7 @@
 
 <p align="center">
   <br>
-  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2021%20(communication)/JFP_schem.jpg">
+  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2021%20(communication)/JFP_schem.png">
 </p>
 
 ### Project Photographs:
