@@ -1,25 +1,24 @@
 /*
 Mike, mlk525
- June 10, 2020
+ June 21, 2020
  
- Code for 'Jet Fighter Portal'
+ Updated code for 'Jet Fighter Portal'
+ Now includes Arduino controls.
  
- Inspired by the "Jet Fighter" arcade game
- and the puzzle-platform game "Portal"
+ Original code and required files can be found at:
+ https://github.com/mike-leo-k/intro-to-im/tree/master/june%2010%20(midterm)
  
- Rotation controls and movement adapted from:
- https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/
- 
- Class and object creation adapted from:
- https://www.openprocessing.org/sketch/48960
- 
- Game screen navigation and control style adapted from:
- https://gist.github.com/oguzgelal/a2a8db8b2da0e864d1d0
- 
- Portal mechanics are entirely original code.
- Yes, I'm very proud. Yes, you may compliment the portal mechanics.
+ Communication with Arduino adapted from:
+ http://www.arduino.cc/en/Tutorial/SerialCallResponse
  
  CONTROLS:
+ 
+ (ARDUINO)
+ Turn the POTENTIOMETER entirely to the left or right to turn the jet
+ RED BUTTON to fire bullets
+ BLUE BUTTON to fire portals
+ 
+ (KEYBOARD)
  LEFT and RIGHT arrow keys for turning the jet left and right
  UP arrow key to speed up the jet
  SPACEBAR to fire bullets
@@ -29,11 +28,13 @@ Mike, mlk525
  The game ends after 42 bullets are fired.
  You can fire bullets and fly through portals,
  teleporting to the location of the second portal.
+ 
+ For the Arduino communication code, jump to the bottom (line 629).
  */
 
-import processing.serial.*;
+import processing.serial.*;          // Importing Processing's Serial library to communicate with the Arduino
 Serial myPort;                       // The serial port
-int[] serialInArray = new int[3];    // Where we'll put what we receive
+int[] serialInArray = new int[3];    // Where we'll put the values we receive
 int serialCount = 0;                 // A count of how many bytes we receive
 boolean firstContact = false;        // Whether we've heard from the microcontroller
 
@@ -614,6 +615,10 @@ void keyReleased() {
   }
 }
 
+/**************************************************************************************************************/
+/*                                            ARDUINO CONTROLS                                                */
+/**************************************************************************************************************/
+
 void serialEvent(Serial myPort) {
   // read a byte from the serial port:
   int inByte = myPort.read();
@@ -631,29 +636,29 @@ void serialEvent(Serial myPort) {
     serialInArray[serialCount] = inByte;
     serialCount++;
 
-    // If we have 3 bytes:
+    // If we have 3 bytes (the 3 values that are to be communicated):
     if (serialCount > 2 ) {
-      if (serialInArray[0] < 5){
-        jet.steer = -0.02;
+      if (serialInArray[0] < 5){  //if the potentiometer is turned all the way to the left
+        jet.steer = -0.02;        //the jet turns left
       }
-      else if (serialInArray[0] > 250){
+      else if (serialInArray[0] > 250){ //the jet turns right if the potentiometer is turned all the way to the right
         jet.steer = 0.02; 
       }
       
-      else {
-        jet.steer = 0;
+      else {                   //'all the way' to the left and right is preferred
+        jet.steer = 0;         //in order to allow for more controlled turning
       }
       
        println(serialInArray[0]);
-      if (serialInArray[1] == 1) {
-        jet.shootPortals();   
-        portal.play(2, 1);
-        ports++;
+      if (serialInArray[1] == 1) { //if the blue button is pressed
+        jet.shootPortals();        //calls the Jet class' shootPortals() method and plays the portal shooting sound
+        portal.play(2, 1);   //the sounds plays at 2x speed
+        ports++;             //number of portals fired is incremented
       }
 
-      if (serialInArray[2] == 1) {
-        jet.shoot();
-        shot.play(1, 0.2);
+      if (serialInArray[2] == 1) { //if the red button is pressed
+        jet.shoot();               //calls the Jet class' shoot() method and plays the bullet shooting sound
+        shot.play(1, 0.2);         //sound is played at 20% amplitude
       }
 
       // Send a capital A to request new sensor readings:
