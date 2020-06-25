@@ -1,4 +1,4 @@
-# Preliminary Concept: Guitar Hero with Processing + Arduino
+# Guitar Hero with Processing + Arduino
 
 ## Description
 <p align="center">
@@ -14,10 +14,3 @@ The general idea is to press the buttons correlated to the notes as they reach t
 </p>
 
 I'm thinking I'll be able to chart songs (code the falling notes) by entering data into a CSV file, with four columns for each button.
-
-If I'm not able to figure out how to make this work, I'll just develop my midterm project (Jet Fighter Portal) further, which I've already incorporated Arduino controls into. I'm thinking of maybe coding an enemy jet for a single-player mode, and building a second set of controls for two-player mode. 
-<p align="center">
-  <img width="700" src="https://github.com/mike-leo-k/intro-to-im/blob/master/june%2010%20(midterm)/pictures/two-player.png">
-</p>
-
-Since the jets in the game are defined as objects in the Jet class, I was able to create a simple two-player mode already.
