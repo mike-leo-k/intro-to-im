@@ -1,3 +1,9 @@
+//second attempt at Processing Hero, with notes read from plain text tablature
+//score counter converted to a percentage (On further reflection, I prefer the original score counter)
+//song: Seven Nation Army, but I've included the files for Greensleeves too
+//technically if you can find the (bass) tabs of the song, you can play it
+
+
 import processing.serial.*;          // Importing Processing's Serial library to communicate with the Arduino
 Serial myPort;                       // The serial port
 int[] serialInArray = new int[5];    // Where we'll put the values we receive
