@@ -1,3 +1,7 @@
+//first attempt at Processing Hero, with randomly generated notes
+//score counter and streaks included
+//song: For the Damaged Coda
+
 import processing.serial.*;          // Importing Processing's Serial library to communicate with the Arduino
 Serial myPort;                       // The serial port
 int[] serialInArray = new int[5];    // Where we'll put the values we receive
