@@ -1,16 +1,9 @@
-# Guitar Hero with Processing + Arduino
+## [Critical Making - Matt Ratto](http://opendesignnow.org/index.html%3Fp=434.html), Open Design Now
 
-## Description
-<p align="center">
-  <br>
-  <img width="600" src="https://ip.trueachievements.com/remote/download.xbox.com/content/images/66acd000-77fe-1000-9115-d802415607f7/1033/screenlg13.jpg">
-</p>
-
-My final project will mimic the classic arcade game Guitar Hero's interface using Processing, while incorporating a mini guitar-shaped controller using Arduino. I'll probably settle for four buttons rather than five, and limit the playing modes to 'Easy' and 'Medium' (harder modes require five buttons).
-
-The general idea is to press the buttons correlated to the notes as they reach the bottom of the screen. In the original game, there is a strumming bar which needs to be used in tandem with the buttons. I'll do my best to figure it out but I might settle for coordinating the buttons alone.
-<p align="center">
-  <img width="700" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Guitar-hero-controller-horiz.jpg/1200px-Guitar-hero-controller-horiz.jpg">
-</p>
-
-I'm thinking I'll be able to chart songs (code the falling notes) by entering data into a CSV file, with four columns for each button.
+### Additional Information & Resources
+* [Website](http://www.opendesignnow.org/) for the Open Design Now book (all articles available in the true spirit of open design).
+* [About Matt Ratto](https://criticalmaking.com/matt-ratto/), from the [website](https://criticalmaking.com/) for his Critical Making Lab at UToronto.
+* [A brief history](https://en.wikipedia.org/wiki/Critical_making#Matt_Ratto_and_Critical_Making) of the conception of 'critical making'.
+* [More information](https://paulatkinsondesign.wordpress.com/category/open-design/) about Open Design Now and open design in general.
+* Matt Ratto's [doctoral thesis](https://www.researchgate.net/publication/236000191_The_pressure_of_openness_The_hybrid_work_of_linux_freeopen_source_kernel_developers) on the pressures of openness, combining study of social structure with the technical aspect of the Linux developers' community.
+* [An article](https://www.3dprintingprogress.com/articles/7433/3d-printed-prosthetic-legs-for-ugandan-children) on the Critical Making Lab's work with 3D scans and printing to facilitate faster fitting and creation of prosthetic limbs in a hospital in Uganda.
