@@ -1,11 +1,13 @@
 # Final Project: Processing Hero
 
+<p align="center">
+  <img width="700" src="https://github.com/mike-leo-k/intro-to-im/blob/master/FinalProject/pictures/screencap.png">
+</p>
+
 ## Description
 Readi
-<p align="center">
-  <br>
-  <img width="500" src="https://github.com/mike-leo-k/intro-to-im/blob/master/">
-</p>
+
+uhyiuy
 
 Usin
 
