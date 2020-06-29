@@ -5,7 +5,7 @@
 </p>
 
 ## Description
-Readi
+Processing Hero is a clone of the popular music rhythm video game series [*Guitar Hero*](https://en.wikipedia.org/wiki/Guitar_Hero). It is designed to emulate as much of the gameplay and aesthetic of the original game through the Java-based software sketchbook [Processing](https://processing.org) combined with the open-source physical computing prototyping platform [Arduino](https://arduino.cc).
 
 uhyiuy
 
