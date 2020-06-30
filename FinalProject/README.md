@@ -25,3 +25,4 @@ Two prototypes of the game were designed, in order to explore different prioriti
 
 ## Challenges & Discoveries
 * Figuring out how to render the game in 3D was quite difficult, but finding a [comprehensive tutorial](https://medium.com/@behreajj/3d-transformations-in-processing-de11acdd1fbc) along with the [P3D](https://processing.org/tutorials/p3d/) reference page was extremely useful. I able able to achieve the desired level of rotation around the X-axis and translation along the Z=axis through trial and error.
+* 
