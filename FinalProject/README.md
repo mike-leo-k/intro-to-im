@@ -39,8 +39,9 @@ The controls of the game are fairly simple: on keyboard, you press the keys '1' 
 * Figuring out how to render the game in 3D was quite difficult, but finding a [comprehensive tutorial](https://medium.com/@behreajj/3d-transformations-in-processing-de11acdd1fbc) along with the [P3D](https://processing.org/tutorials/p3d/) reference page was extremely useful. I able able to achieve the desired level of rotation around the X-axis and translation along the Z=axis through trial and error.
 * Figuring out how to play videos or even short animations was very challenging. Experimenting with the [Animated Sprite](https://processing.org/examples/animatedsprite.html) class from Processing was largely unsuccessful. In fact, I wasn't able to find a solution to displaying video or animation until our final presentations, where my classmate Muhammad (whose repository is [here](https://github.com/MuhammadBinNauman/Intro-to-IM)) explained how he used the [Movie](https://processing.org/reference/libraries/video/Movie.html) class from the Processing Video library. The reference page made it even easier to implement.
 * I used websites that converted sheet music to tablature for bass guitars, primarily using [Big Bass Tabs](https://www.bigbasstabs.com/) for its conveniently formatted tabs:
-
+````
 G|—————7———9—————————7———9———X—————|———-—7———9—————————7———9———X—————|
 D|—————————————————————————————————|—————————————————————————————————|
 A|—7———————————7———7———X———X———7———|—5———————————5———5———X———X———————|
 E|—————————————————————————————————|—————————————————————————————5———|
+````
